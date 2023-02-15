@@ -51,10 +51,19 @@
 // }
 // --Program 04
 // Write a ts program to check whether a number is divisible by 5 and 11 or not.
+// let Num:string | null = prompt("Enter Any Number");
+// if (Number(Num) % 5 == 0 && Number(Num) % 11 == 0){
+//     console.log("Number is divisible by 5 and 11")
+// }
+// else {
+//     console.log("Number is not divisible by 5 and 11")
+// }
+// --Program 05
+//  Write a ts program to check whether a number is even or odd.
 var Num = prompt("Enter Any Number");
-if (Number(Num) % 5 == 0 && Number(Num) % 11 == 0) {
-    console.log("Number is divisible by 5 and 11");
+if (Number(Num) % 2 == 0) {
+    console.log("Number is Even.");
 }
 else {
-    console.log("Number is not divisible by 5 and 11");
+    console.log("Number is Odd.");
 }
