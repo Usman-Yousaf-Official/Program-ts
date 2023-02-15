@@ -36,16 +36,25 @@
 // }
 // --Program 03
 // Write a ts program to check whether a number is negative, positive or zero.
+// let Num:string | null = prompt("Enter Any Number");
+// if (Number(Num) > 0){
+//     console.log("Number is Positive")
+// }
+// else if (Number(Num) < 0){
+//     console.log("Number is Negative")
+// }
+// else if (Number(Num) == 0) {
+//     console.log("Number is Zero")
+// }
+// else {
+//     console.log("Not a defined Number")
+// }
+// --Program 04
+// Write a ts program to check whether a number is divisible by 5 and 11 or not.
 var Num = prompt("Enter Any Number");
-if (Number(Num) > 0) {
-    console.log("Number is Positive");
-}
-else if (Number(Num) < 0) {
-    console.log("Number is Negative");
-}
-else if (Number(Num) == 0) {
-    console.log("Number is Zero");
+if (Number(Num) % 5 == 0 && Number(Num) % 11 == 0) {
+    console.log("Number is divisible by 5 and 11");
 }
 else {
-    console.log("Not a defined Number");
+    console.log("Number is not divisible by 5 and 11");
 }
