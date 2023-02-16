@@ -65,10 +65,20 @@
 
 // --Program 05
 //  Write a ts program to check whether a number is even or odd.
+// var Num:string | null = prompt("Enter Any Number");
+// if (Number(Num) % 2 == 0 ){
+//     console.log("Number is Even.")
+// }
+// else{
+//     console.log("Number is Odd.")
+// }
+
+// --Program 06
+// Write a ts program to check whether a year is leap year or not
 var Num:string | null = prompt("Enter Any Number");
-if (Number(Num) % 2 == 0 ){
-    console.log("Number is Even.")
+if (Number(Num) % 4 == 0 ){
+    console.log("This is a Leap Year.")
 }
 else{
-    console.log("Number is Odd.")
+    console.log("This is not a Leap Year.")
 }
