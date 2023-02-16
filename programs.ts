@@ -75,10 +75,18 @@
 
 // --Program 06
 // Write a ts program to check whether a year is leap year or not
-var Num:string | null = prompt("Enter Any Number");
-if (Number(Num) % 4 == 0 ){
-    console.log("This is a Leap Year.")
-}
-else{
-    console.log("This is not a Leap Year.")
-}
+// var Num:string | null = prompt("Enter Any Number");
+// if (Number(Num) % 4 == 0 ){
+//     console.log("This is a Leap Year.")
+// }
+// else{
+//     console.log("This is not a Leap Year.")
+// }
+
+// --Program 07
+// Write a ts program to check whether a character is alphabet or not
+let characterCheck:string | null = prompt("Enter a letter")
+function isCharacterALetter(char) {
+    return char.toLowerCase() != char.toUpperCase()
+  }
+  console.log(isCharacterALetter(characterCheck))
